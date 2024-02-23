@@ -14,6 +14,8 @@ M.treesitter = {
     "markdown_inline",
     "python",
     "go",
+    "toml",
+    "terraform",
   },
   indent = {
     enable = true,
@@ -52,6 +54,13 @@ M.mason = {
     -- golang
     "gopls",
     "goimports",
+
+    -- toml
+    "taplo",
+
+    -- terraform
+    "terraform-ls",
+    "tflint",
   },
 }
 
