@@ -64,6 +64,7 @@ local plugins = {
 
   {
     "codota/tabnine-nvim",
+    lazy = false,
     dependencies = "tzachar/cmp-tabnine",
     build = "./dl_binaries.sh",
     config = function()
@@ -98,7 +99,7 @@ local plugins = {
     "tzachar/cmp-tabnine",
     build = "./install.sh",
     dependencies = "hrsh7th/nvim-cmp",
-    ft = { "python", "go" },
+    -- ft = { "python", "go" },
     config = function()
       require("cmp_tabnine.config"):setup {
         max_lines = 1000,
@@ -118,11 +119,6 @@ local plugins = {
     "mattn/calendar-vim",
     cmd = "Calendar",
   },
-
-  -- {
-  --   "Vimjas/vim-python-pep8-indent",
-  --   ft = { "python" },
-  -- },
 }
 
 return plugins

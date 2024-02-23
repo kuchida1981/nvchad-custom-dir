@@ -12,6 +12,7 @@ local options = {
     sh = { "shfmt" },
     python = { "black", "isort", "autopep8" },
     go = { "goimports", "gofmt" },
+    toml = { "taplo" },
   },
 
   -- adding same formatter for multiple filetypes can look too much work for some
