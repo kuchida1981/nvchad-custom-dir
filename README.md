@@ -31,4 +31,5 @@ git clone https://github.com/kuchida1981/nvchad-custom-dir
 
 ```plaintext
 ln -s ~/path/to/nvchad-custom-dir/custom ~/.config/nvim/lua/custom
+ln -s ~/path/to/nvchad-custom-dir/ftplugin ~/.config/nvim/ftplugin
 ```
